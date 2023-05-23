@@ -9,10 +9,19 @@ import { AboutComponent } from 'src/layouts/about/about.component';
 import { ServiceComponent } from 'src/layouts/service/service.component';
 import { MainComponent } from 'src/layouts/main/main.component';
 import { TopbarComponent } from 'src/layouts/topbar/topbar.component';
+import { EvenementComponent } from 'src/layouts/evenement/evenement.component';
+import { EntrepriseComponent } from 'src/layouts/entreprise/entreprise.component';
+import { DescriptionComponent } from 'src/layouts/description/description.component';
+import { SinscrireComponent } from 'src/layouts/sinscrire/sinscrire.component';
+import { ContactComponent } from 'src/layouts/contact/contact.component';
+import { OffresComponent } from 'src/layouts/offres/offres.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent, NavbarComponent, FooterComponent, AboutComponent, ServiceComponent, MainComponent, TopbarComponent
+    AppComponent, NavbarComponent, FooterComponent, AboutComponent, ServiceComponent, 
+    MainComponent, TopbarComponent, EvenementComponent, EntrepriseComponent, 
+    DescriptionComponent, SinscrireComponent, ContactComponent, OffresComponent
   ],
   imports: [
     BrowserModule,
