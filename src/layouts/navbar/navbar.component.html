@@ -10,14 +10,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse" style="background-color: black;">
                 <div class="navbar-nav">
-                    <a href="/" class="nav-item nav-link active" style="color:white">Accueil</a>
+                    <a href="index.html" class="nav-item nav-link active" style="color:white">Accueil</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:white">Societe</a>
                         <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
                             <a  [routerLink]="[{ outlets: { primary: ['about']}}]" class="dropdown-item">Qui somme nous ?</a>
-                            <a href="feature.html" class="dropdown-item">Objectif</a>
-                            <a href="team.html" class="dropdown-item">Notre Equipe</a>
-                            <a href="testimonial.html" class="dropdown-item">Partenaires</a>
+                            <a [routerLink]="[{ outlets: { primary: ['objectifs']}}]" class="dropdown-item">Objectif</a>
+                            <a [routerLink]="[{ outlets: { primary: ['equipes']}}]" class="dropdown-item">Notre Equipe</a>
+                            <a [routerLink]="[{ outlets: { primary: ['partenaires']}}]" class="dropdown-item">Partenaires</a>
                         </div>
                     </div>
                     <a href="service" class="nav-item nav-link" style="color:white">Services</a>

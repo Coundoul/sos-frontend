@@ -9,10 +9,12 @@ import { AboutComponent } from 'src/layouts/about/about.component';
 import { ServiceComponent } from 'src/layouts/service/service.component';
 import { MainComponent } from 'src/layouts/main/main.component';
 import { TopbarComponent } from 'src/layouts/topbar/topbar.component';
+import { TeamStartComponent } from 'src/layouts/team-start/team-start.component';
 
 @NgModule({
   declarations: [
-    AppComponent, NavbarComponent, FooterComponent, AboutComponent, ServiceComponent, MainComponent, TopbarComponent
+    AppComponent, NavbarComponent, FooterComponent, AboutComponent, ServiceComponent, MainComponent, TopbarComponent,
+    TeamStartComponent
   ],
   imports: [
     BrowserModule,

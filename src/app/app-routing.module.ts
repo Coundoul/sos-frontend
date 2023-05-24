@@ -6,6 +6,8 @@ import { FooterComponent } from 'src/layouts/footer/footer.component';
 import { NavbarComponent } from 'src/layouts/navbar/navbar.component';
 import { TopbarComponent } from 'src/layouts/topbar/topbar.component';
 import { MainComponent } from 'src/layouts/main/main.component';
+import { TeamStartComponent } from 'src/layouts/team-start/team-start.component';
+import { ObjectifComponent } from 'src/layouts/objectif/objectif.component';
 
 const routes: Routes = [
   {
@@ -14,6 +16,9 @@ const routes: Routes = [
   },
   {path:'about', component:AboutComponent},
   {path: 'services', component: ServiceComponent},
+  {path: 'equipes', component: TeamStartComponent},
+  {path: 'objectifs', component: ObjectifComponent},
+  {path: 'partenaires', component: TeamStartComponent},
   {path: 'topbar', component: TopbarComponent, outlet:'topbar'},
   {path: 'navbar', component: NavbarComponent, outlet:'navbar'},
   {path: 'footer', component: FooterComponent, outlet: 'footer'}
