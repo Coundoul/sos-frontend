@@ -233,6 +233,10 @@
     background-size: cover;
 }
 
+.securite{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/securite.jpg) left center no-repeat;
+    background-size: cover;
+}
 .domaine-hebergement2 {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/domaine-hebergement2.jpg) left center no-repeat;
     background-size: cover;
