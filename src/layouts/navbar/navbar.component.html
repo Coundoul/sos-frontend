@@ -20,7 +20,16 @@
                             <a href="testimonial.html" class="dropdown-item">Partenaires</a>
                         </div>
                     </div>
-                    <a href="service" class="nav-item nav-link" style="color:white">Services</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:white">Services</a>
+                        <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
+                            <a [routerLink]="[{ outlets: { primary: ['services']}}]" class="dropdown-item">Réseaux et Télécom</a>
+                             <a [routerLink]="[{ outlets: { primary: ['services']}}]" class="dropdown-item">Developpement d'application web et mobile</a>
+                            <a [routerLink]="[{ outlets: { primary: ['services']}}]" class="dropdown-item">BI et Big Data</a>
+                            <a [routerLink]="[{ outlets: { primary: ['services']}}]" class="dropdown-item">Cyber-Security</a> 
+                            <a [routerLink]="[{ outlets: { primary: ['services']}}]" class="dropdown-item">Infographie Et Designer</a> 
+                        </div>
+                    </div>
                     <a href="service" class="nav-item nav-link" style="color:white">Offres</a>
                     <a href="index.html" class="nav-item nav-link active" style="color:white">Evenements</a>
                     
