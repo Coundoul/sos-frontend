@@ -12,6 +12,13 @@ import { DescriptionComponent } from 'src/layouts/description/description.compon
 import { SinscrireComponent } from 'src/layouts/sinscrire/sinscrire.component';
 import { ContactComponent } from 'src/layouts/contact/contact.component';
 import { OffresComponent } from 'src/layouts/offres/offres.component';
+import { DomaineHebergementComponent } from 'src/layouts/offres/domaine-hebergement/domaine-hebergement.component';
+import { OfficeComponent } from 'src/layouts/offres/office/office.component';
+import { KasperskyComponent } from 'src/layouts/offres/kaspersky/kaspersky.component';
+import { FormationsComponent } from 'src/layouts/offres/formations/formations.component';
+import { EquipementLogicielComponent } from 'src/layouts/offres/equipement-logiciel/equipement-logiciel.component';
+import { ConsultanceComponent } from 'src/layouts/offres/consultance/consultance.component';
+import { LeadershipComponent } from 'src/layouts/offres/leadership/leadership.component';
 
 const routes: Routes = [
   {
@@ -28,7 +35,14 @@ const routes: Routes = [
   {path: 'services', component: ServiceComponent},
   {path: 'topbar', component: TopbarComponent, outlet:'topbar'},
   {path: 'navbar', component: NavbarComponent, outlet:'navbar'},
-  {path: 'footer', component: FooterComponent, outlet: 'footer'}
+  {path: 'footer', component: FooterComponent, outlet: 'footer'},
+  {path: 'offres/domaine-hebergement', component: DomaineHebergementComponent},
+  {path: 'offres/office', component: OfficeComponent},
+  {path: 'offres/kaspersky', component: KasperskyComponent},
+  {path:'offres/formations', component: FormationsComponent},
+  {path:'offres/equipement-logiciel', component: EquipementLogicielComponent},
+  {path:'offres/consultance', component: ConsultanceComponent},
+  {path:'offres/leaderShip', component: LeadershipComponent}
   
 ];
 

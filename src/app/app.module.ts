@@ -15,13 +15,22 @@ import { DescriptionComponent } from 'src/layouts/description/description.compon
 import { SinscrireComponent } from 'src/layouts/sinscrire/sinscrire.component';
 import { ContactComponent } from 'src/layouts/contact/contact.component';
 import { OffresComponent } from 'src/layouts/offres/offres.component';
+import { DomaineHebergementComponent } from 'src/layouts/offres/domaine-hebergement/domaine-hebergement.component';
+import { OfficeComponent } from 'src/layouts/offres/office/office.component';
+import { KasperskyComponent } from 'src/layouts/offres/kaspersky/kaspersky.component';
+import { FormationsComponent } from 'src/layouts/offres/formations/formations.component';
+import { EquipementLogicielComponent } from 'src/layouts/offres/equipement-logiciel/equipement-logiciel.component';
+import { ConsultanceComponent } from 'src/layouts/offres/consultance/consultance.component';
+import { LeadershipComponent } from 'src/layouts/offres/leadership/leadership.component';
 
 
 @NgModule({
   declarations: [
     AppComponent, NavbarComponent, FooterComponent, AboutComponent, ServiceComponent, 
     MainComponent, TopbarComponent, EvenementComponent, EntrepriseComponent, 
-    DescriptionComponent, SinscrireComponent, ContactComponent, OffresComponent
+    DescriptionComponent, SinscrireComponent, ContactComponent, OffresComponent,
+    DomaineHebergementComponent, OfficeComponent, KasperskyComponent, FormationsComponent,
+    EquipementLogicielComponent, ConsultanceComponent, LeadershipComponent
   ],
   imports: [
     BrowserModule,
