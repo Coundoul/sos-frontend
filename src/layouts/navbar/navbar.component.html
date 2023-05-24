@@ -20,11 +20,58 @@
                             <a [routerLink]="[{ outlets: { primary: ['partenaires']}}]" class="dropdown-item">Partenaires</a>
                         </div>
                     </div>
-                    <a href="service" class="nav-item nav-link" style="color:white">Services</a>
-                    <a href="service" class="nav-item nav-link" style="color:white">Offres</a>
-                    <a href="index.html" class="nav-item nav-link active" style="color:white">Evenements</a>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:white">Services</a>
+                        <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
+                            <a [routerLink]="[{ outlets: { primary: ['services']}}]" class="dropdown-item">Réseaux et Télécom</a>
+                             <a [routerLink]="[{ outlets: { primary: ['services']}}]" class="dropdown-item">Developpement d'application web et mobile</a>
+                            <a [routerLink]="[{ outlets: { primary: ['services']}}]" class="dropdown-item">BI et Big Data</a>
+                            <a [routerLink]="[{ outlets: { primary: ['services']}}]" class="dropdown-item">Cyber-Security</a> 
+                            <a [routerLink]="[{ outlets: { primary: ['services']}}]" class="dropdown-item">Infographie Et Designer</a> 
+                        </div>
+                    </div>
+                   
                     
+        
                     
+                    <!--Partie Offres-->
+                    <!-- <a href="service" class="nav-item nav-link" style="color:white">Offres</a> -->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:white">Offres</a>
+                        <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
+                            <a [routerLink]="[{ outlets: { primary: ['offres']}}]" class="dropdown-item">Domaine et Herbergement</a>
+                            <a [routerLink]="[{ outlets: { primary: ['offres']}}]" class="dropdown-item">Office 365</a>
+                            <a [routerLink]="[{ outlets: { primary: ['offres']}}]" class="dropdown-item">Kaspersky</a>
+                            <a [routerLink]="[{ outlets: { primary: ['offres']}}]" class="dropdown-item">Nos Formation</a>
+                            <a [routerLink]="[{ outlets: { primary: ['offres']}}]" class="dropdown-item">Equipement et Logiciels</a>
+                            <a [routerLink]="[{ outlets: { primary: ['offres']}}]" class="dropdown-item">Consultance</a>
+                            <a [routerLink]="[{ outlets: { primary: ['offres']}}]" class="dropdown-item">Leadership</a>
+                            <!-- <a [routerLink]="[{ outlets: { primary: ['sinscrire']}}]" class="dropdown-item">S'inscrire</a> -->
+                        </div>
+                    </div>
+                    <!-- Partie Evenement-->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:white">Evenement</a>
+                        <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
+                            <a [routerLink]="[{ outlets: { primary: ['evenement']}}]" class="dropdown-item">Salon des métiers</a>
+                            <a [routerLink]="[{ outlets: { primary: ['entreprise']}}]" class="dropdown-item">Les entreprises</a>
+                            <a [routerLink]="[{ outlets: { primary: ['description']}}]" class="dropdown-item">Description de l'événement</a>
+                            <!-- <a [routerLink]="[{ outlets: { primary: ['sinscrire']}}]" class="dropdown-item">S'inscrire</a> -->
+                        </div>
+                    </div>
+
+                    <!--Prtie Contact-->
+                    <a  [routerLink]="[{ outlets: { primary: ['contact']}}]" class="dropdown-item" 
+                    href="contact.html" class="nav-item nav-link contact" style="color:white">Contact</a>
+                    <!-- <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:white"
+                        [routerLink]="[{ outlets: { primary: ['contact']}}]" class="dropdown-item">Contact</a>
+                        <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
+                            <a [routerLink]="[{ outlets: { primary: ['contact']}}]" class="dropdown-item">contact</a>
+                        </div> 
+                    </div> -->
+
                     <!-- <a href="/service.html" class="nav-item nav-link">Services</a>
                     <a href="project.html" class="nav-item nav-link">Projects</a> -->
                     <!-- <div class="nav-item dropdown">
@@ -37,7 +84,6 @@
                             <a href="404.html" class="dropdown-item">404 Page</a>
                         </div>
                     </div> -->
-                    <a href="contact.html" class="nav-item nav-link" style="color:white">Contact</a>
                 </div>
                 <!-- <div class="ms-auto d-none d-lg-block">
                     <a href="" class="btn btn-primary rounded-pill py-2 px-3">Get A Quote</a>

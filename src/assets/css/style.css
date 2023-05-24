@@ -209,6 +209,40 @@
     background-size: cover;
 }
 
+
+.reseaux {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/reseaux.jpg) left center no-repeat;
+    background-size: cover;
+}
+.reseaux1 {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/reseaux1.jpg) left center no-repeat;
+    background-size: cover;
+}
+.donnee {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/donnee.jpg) left center no-repeat;
+    background-size: cover;
+}
+
+.application {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/application.jpg) left center no-repeat;
+    background-size: cover;
+}
+
+.infographie{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/infographie.jfif) left center no-repeat;
+    background-size: cover;
+}
+
+.securite{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/securite.jpg) left center no-repeat;
+    background-size: cover;
+}
+.domaine-hebergement2 {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/domaine-hebergement2.jpg) left center no-repeat;
+    background-size: cover;
+}
+
+
 .btn-play {
     position: relative;
     display: block;
