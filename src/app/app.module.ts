@@ -9,23 +9,12 @@ import { AboutComponent } from 'src/layouts/about/about.component';
 import { ServiceComponent } from 'src/layouts/service/service.component';
 import { MainComponent } from 'src/layouts/main/main.component';
 import { TopbarComponent } from 'src/layouts/topbar/topbar.component';
-<<<<<<< HEAD
+
 import { ApplicationComponent } from 'src/layouts/service/application/application.component';
 import { ReseauxComponent } from 'src/layouts/service/reseaux/reseaux.component';
 import { DonneeComponent } from 'src/layouts/service/donnee/donnee.component';
 import { InfographieComponent } from 'src/layouts/service/infographie/infographie.component';
 import { SecuriteComponent } from 'src/layouts/securite/securite.component';
-
-@NgModule({
-  declarations: [
-    AppComponent, NavbarComponent, FooterComponent, AboutComponent, ServiceComponent, MainComponent, 
-    TopbarComponent,
-    ApplicationComponent,
-    ReseauxComponent,
-    DonneeComponent,
-    InfographieComponent,
-    SecuriteComponent
-=======
 import { EvenementComponent } from 'src/layouts/evenement/evenement.component';
 import { EntrepriseComponent } from 'src/layouts/entreprise/entreprise.component';
 import { DescriptionComponent } from 'src/layouts/description/description.component';
@@ -40,16 +29,36 @@ import { EquipementLogicielComponent } from 'src/layouts/offres/equipement-logic
 import { ConsultanceComponent } from 'src/layouts/offres/consultance/consultance.component';
 import { LeadershipComponent } from 'src/layouts/offres/leadership/leadership.component';
 
-
 @NgModule({
   declarations: [
-    AppComponent, NavbarComponent, FooterComponent, AboutComponent, ServiceComponent, 
-    MainComponent, TopbarComponent, EvenementComponent, EntrepriseComponent, 
-    DescriptionComponent, SinscrireComponent, ContactComponent, OffresComponent,
-    DomaineHebergementComponent, OfficeComponent, KasperskyComponent, FormationsComponent,
-    EquipementLogicielComponent, ConsultanceComponent, LeadershipComponent
->>>>>>> b99c7b56647a818e9e72b2ec19961a3654f5e035
+    AppComponent, NavbarComponent, FooterComponent, AboutComponent, ServiceComponent, MainComponent, 
+    TopbarComponent,
+    ApplicationComponent,
+    ReseauxComponent,
+    DonneeComponent,
+    InfographieComponent,
+    SecuriteComponent,
+    EvenementComponent, 
+    EntrepriseComponent, 
+    DescriptionComponent, 
+    SinscrireComponent, 
+    ContactComponent,
+     OffresComponent,
+    DomaineHebergementComponent,
+     OfficeComponent,
+      KasperskyComponent, 
+      FormationsComponent,
+    EquipementLogicielComponent, 
+    ConsultanceComponent, 
+    LeadershipComponent
   ],
+
+
+
+
+
+
+  
   imports: [
     BrowserModule,
     AppRoutingModule
