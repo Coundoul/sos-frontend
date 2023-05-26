@@ -257,6 +257,12 @@
     background-size: cover;
 }
 
+.formation {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/formation.jpg) left center no-repeat;
+    background-size: cover;
+}
+
+
 
 .btn-play {
     position: relative;
@@ -605,18 +611,28 @@
 
 /*** Footer ***/
 .footer {
-    color: #B0B9AE;
+    color: #0b0b0b;
+    background-color: darkgray;
 }
+
+
+.logoFooter{
+    width: 10%;
+    height: 30px;
+    margin-right: 8%;
+}
+
 
 .footer .btn.btn-link {
     display: block;
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: #B0B9AE;
+    color: #0b0b0b;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
+    
 }
 
 .footer .btn.btn-link::before {
@@ -624,7 +640,7 @@
     content: "\f105";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    margin-right: 10px;
+    margin-right: 3px;
 }
 
 .footer .btn.btn-link:hover {
