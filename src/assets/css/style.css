@@ -218,6 +218,21 @@
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/reseaux1.jpg) left center no-repeat;
     background-size: cover;
 }
+.leadership{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/leadership.jpeg) left center no-repeat;
+    background-size: cover;
+
+}
+.equipLogiciel{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/equipementetlogiciel.jpg) left center no-repeat;
+    background-size: cover;
+
+}
+.consultance{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/consultance.avif) left center no-repeat;
+    background-size: cover;
+
+}
 .donnee {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/donnee.jpg) left center no-repeat;
     background-size: cover;
@@ -587,7 +602,6 @@
         font-size: 20px;
     }
 }
-
 
 /*** Footer ***/
 .footer {
