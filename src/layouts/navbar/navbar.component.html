@@ -52,9 +52,9 @@
                     </div>
                     <!-- Partie Evenement-->
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:white">Evenement</a>
+                        <a [routerLink]="[{ outlets: { primary: ['evenement']}}]" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:white">Salon des métiers</a>
                         <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
-                            <a [routerLink]="[{ outlets: { primary: ['evenement']}}]" class="dropdown-item">Salon des métiers</a>
+                            <!-- <a [routerLink]="[{ outlets: { primary: ['evenement']}}]" class="dropdown-item">Salon des métiers</a> -->
                             <a [routerLink]="[{ outlets: { primary: ['entreprise']}}]" class="dropdown-item">Les entreprises</a>
                             <a [routerLink]="[{ outlets: { primary: ['description']}}]" class="dropdown-item">Description de l'événement</a>
                             <!-- <a [routerLink]="[{ outlets: { primary: ['sinscrire']}}]" class="dropdown-item">S'inscrire</a> -->
